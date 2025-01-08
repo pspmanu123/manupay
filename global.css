@@ -215,6 +215,7 @@ ol{
 }
 
 
+
 @media screen and (max-width: 640px) {
     .section{
         flex-direction: column;
@@ -233,4 +234,23 @@ ol{
     .imgs img{
         width: 100%;
     }
+
+    .trans-det{
+        display: none;
+    }
+
+    #ins{
+        display: none;
+    }
+
+    #show1{
+        display: flex;
+    }
+
+    #show2{
+        display: none;
+    }
+
 }
+
+

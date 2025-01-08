@@ -70,3 +70,29 @@ function copy2(){
     document.getElementById("copynam").style.display = "flex";
     setTimeout(function() { document.getElementById("copynam").style.display = "none"; }, 1500);
 }
+
+function showins(){
+    document.getElementById("ins").style.display = "flex";
+    document.getElementById("show1").style.display = "none";
+    document.getElementById("show2").style.display = "flex";
+}
+
+function hideins(){
+    document.getElementById("ins").style.display = "none";
+    document.getElementById("show1").style.display = "flex";
+    document.getElementById("show2").style.display = "none";
+}
+
+// function screenWidthCheck() {
+//     if (window.innerWidth > 640) { myFunction(); } 
+// } 
+
+// function myFunction() {
+//     console.log("Screen width is over 640px!");
+//     document.getElementById("ins").style.display = "flex";
+//     document.getElementById("show1").style.display = "none";
+//     document.getElementById("show2").style.display = "none";
+// } 
+
+// window.onload = screenWidthCheck;
+// window.onresize = screenWidthCheck;
