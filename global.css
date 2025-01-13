@@ -252,8 +252,7 @@ ol{
     }
 
     #copynam, #copynum{
-        content: "error";
-        color: red;
+        opacity: 0;
     }
 
 }
