@@ -251,6 +251,11 @@ ol{
         display: none;
     }
 
+    #copynam, #copynum{
+        content: "error";
+        color: red;
+    }
+
 }
 
 
